@@ -312,4 +312,400 @@ nav ul li a {
   font-family: var(--abeeZee-fonts);
 }
 
+#collaborate_part button span {
+  color: #fff;
+}
+
 /* collaborate part style end here */
+
+/* work together section style start here */
+#work_together-section {
+  width: var(--section-container);
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+#work_together-section .work-part {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#work_together-section .work-part .text-part {
+  width: 560px;
+}
+
+#work_together-section .work-part .text-part h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #050038;
+  font-family: var(--inter-fonts);
+  margin-bottom: 16px;
+  line-height: 56px;
+}
+#work_together-section .work-part .text-part p {
+  color: #8d8c92;
+  font-family: var(--inter-fonts);
+  font-size: 18px;
+  width: 353px;
+  margin-bottom: 40px;
+}
+#work_together-section .learn-more {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#work_together-section .learn-more span {
+  margin-bottom: -5px;
+}
+#work_together-section .learn-more a,
+span {
+  /* color: #4262ff; */
+  font-family: var(--inter-fonts);
+}
+#work_together-section .img-part {
+  width: 560px;
+}
+#work_together-section .img-part img {
+  width: 100%;
+}
+/* work together section style end here */
+
+/* connect tools part start here  */
+
+#connect_tools-part {
+  padding-bottom: 60px;
+}
+
+#connect_tools-part .details {
+  width: var(--section-container);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#connect_tools-part .details .img-part {
+  width: 550px;
+}
+#connect_tools-part .details .img-part img {
+  width: 100%;
+}
+
+#connect_tools-part .details .text-part {
+  width: 465px;
+}
+#connect_tools-part .details .text-part h2 {
+  color: #050038;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: var(--inter-fonts);
+  padding-bottom: 28px;
+}
+#connect_tools-part .details .text-part p {
+  color: #8d8c92;
+  font-size: 18px;
+  font-family: var(--inter-fonts);
+  padding-bottom: 52px;
+}
+
+#connect_tools-part .learn-more {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#connect_tools-part .learn-more span {
+  margin-bottom: -5px;
+}
+#connect_tools-part .learn-more a,
+span {
+  /* color: #4262ff; */
+  font-family: var(--inter-fonts);
+}
+/* connect tools part end here  */
+
+/* the ways we work section style start here */
+#the_ways-work {
+  margin-bottom: 60px;
+}
+
+#the_ways-work .details {
+  background: url("/images/the ways we work.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: var(--section-container);
+  margin: 0 auto;
+}
+#the_ways-work .details .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 191px 40px 191px;
+}
+
+#the_ways-work .details .text .text-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#the_ways-work .details .text .text-details h4 {
+  color: #050038;
+  font-size: 22px;
+  font-family: var(--inter-fonts);
+}
+#the_ways-work .details .text .text-details p {
+  color: #050038;
+  font-size: 18px;
+  font-family: var(--abeeZee-fonts);
+  margin: 8px 0;
+}
+#the_ways-work .details .text .text-details .view-report-btn {
+  padding: 10px 30px;
+  background-color: #4262ff;
+  border-radius: 40px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#the_ways-work .details .text .text-details .view-report-btn a {
+  color: #fff;
+  font-family: var(--abeeZee-fonts);
+  font-size: 14px;
+}
+#the_ways-work .details .text .text-details .view-report-btn span {
+  color: #fff;
+  font-family: var(--abeeZee-fonts);
+  font-size: 14px;
+}
+/* the ways we work section style end here */
+
+/* Built for the way section style start here */
+#built_for-the-way {
+  margin-bottom: 150px;
+}
+#built_for-the-way .details {
+  width: var(--section-container);
+  margin: 0 auto;
+}
+#built_for-the-way .details h2 {
+  color: #050038;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: var(--inter-fonts);
+  margin-bottom: 32px;
+}
+#built_for-the-way .details .features a {
+  display: inline-block;
+  padding: 10px 22px;
+  border: 1px solid #f2f2f2;
+  border-radius: 24px;
+  margin-left: 8px;
+  margin-bottom: 26px;
+}
+#built_for-the-way .details .features a:hover {
+  background-color: #f1f3fd;
+  transition: all 0.3s;
+}
+#built_for-the-way .details .text-details {
+  width: 360px;
+  padding: 30px 40px 0 16px;
+}
+#built_for-the-way .details .text-details h5 {
+  color: #050038;
+  font-size: 18px;
+  font-family: var(--abeeZee-fonts);
+}
+#built_for-the-way .details .text-details p {
+  color: #8d8c92;
+  font-size: 18px;
+  font-family: var(--abeeZee-fonts);
+  padding: 26px 0 36px;
+}
+#built_for-the-way .details .text-details .learn-more a {
+  color: #4262ff;
+  font-size: 18px;
+  font-family: var(--abeeZee-fonts);
+}
+#built_for-the-way .details .text-details .learn-more span {
+  color: #4262ff;
+}
+
+#built_for-the-way .details .text-and-img {
+  display: flex;
+}
+
+#built_for-the-way .details .image {
+  width: 700px;
+}
+#built_for-the-way .details .image img {
+  width: 100%;
+}
+/* Built for the way section style end here */
+
+/* Built for all kinds section style start here  */
+#built_for-all-kinds {
+  margin-bottom: 150px;
+}
+#built_for-all-kinds .details {
+  width: var(--section-container);
+  margin: 0 auto;
+}
+#built_for-all-kinds .details h2 {
+  color: #050038;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: var(--inter-fonts);
+  margin-bottom: 32px;
+}
+#built_for-all-kinds .details .features a {
+  display: inline-block;
+  padding: 10px 22px;
+  border: 1px solid #f2f2f2;
+  border-radius: 24px;
+  margin-left: 8px;
+  margin-bottom: 26px;
+}
+#built_for-all-kinds .details .features a:hover {
+  background-color: #f1f3fd;
+  transition: all 0.3s;
+}
+#built_for-all-kinds .details .text-details {
+  width: 360px;
+  padding: 30px 40px 0 16px;
+}
+#built_for-all-kinds .details .text-details h5 {
+  color: #050038;
+  font-size: 18px;
+  font-family: var(--abeeZee-fonts);
+}
+#built_for-all-kinds .details .text-details .kinds {
+  display: flex;
+  gap: 14px;
+  margin: 16px 0;
+}
+
+#built_for-all-kinds .details .text-details p {
+  color: #8d8c92;
+  font-size: 18px;
+  font-family: var(--abeeZee-fonts);
+}
+
+#built_for-all-kinds .details .text-details .learn-more {
+  margin-top: 25px;
+}
+
+#built_for-all-kinds .details .text-details .learn-more a {
+  color: #4262ff;
+  font-size: 18px;
+  font-family: var(--abeeZee-fonts);
+}
+#built_for-all-kinds .details .text-details .learn-more span {
+  color: #4262ff;
+}
+
+#built_for-all-kinds .details .text-and-img {
+  display: flex;
+}
+#built_for-all-kinds .details .text-and-img .favorite-tools {
+  margin-top: 70px;
+}
+#built_for-all-kinds .details .text-and-img .favorite-tools span {
+  color: #8d8c92;
+  font-size: 18px;
+  font-family: var(--abeeZee-fonts);
+  margin-bottom: 20px;
+  display: inline-block;
+}
+#built_for-all-kinds .details .text-and-img .favorite-tools .tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#built_for-all-kinds .details .text-and-img .favorite-tools .tools img {
+  width: 30px;
+  height: 30px;
+}
+
+#built_for-all-kinds .details .image {
+  width: 700px;
+}
+#built_for-all-kinds .details .image img {
+  width: 100%;
+}
+/* Built for all kinds section style end here  */
+
+/* world best team section style start here */
+#world_best-team {
+  margin-bottom: 100px;
+}
+#world_best-team .details {
+  width: var(--section-container);
+  margin: 0 auto;
+}
+#world_best-team .details h2 {
+  color: #050038;
+  font-size: 48px;
+  font-family: var(--inter-fonts);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+#world_best-team .details .btn {
+  display: flex;
+  justify-content: center;
+}
+
+#world_best-team .details .customer-stories-btn {
+  padding: 12px 30px;
+  border: 1px solid #4262ff;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #4262ff;
+}
+#world_best-team .details .customer-stories-btn a {
+  color: #4262ff;
+  font-family: var(--abeeZee-fonts);
+}
+
+#world_best-team .details .customer-stories {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+#world_best-team .details .customer-stories .sotores {
+  width: 360px;
+  height: 460px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#world_best-team .details .customer-stories .sotores > img {
+  height: 60px;
+  width: 288px;
+}
+#world_best-team .details .customer-stories .sotores > p {
+  color: #8d8c92;
+  font-size: 18px;
+  font-family: var(--abeeZee-fonts);
+}
+
+#world_best-team .details .customer-stories .sotores .customer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: var(--abeeZee-fonts);
+  font-size: 14px;
+  color: #8d8c92;
+}
+
+/* world best team section style end here */
