@@ -11,21 +11,29 @@ a {
   text-decoration: none;
 }
 
+.section-heading {
+  color: #02033b;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: var(--inter-fonts);
+}
+
 :root {
   --inter-fonts: "Inter", sans-serif;
   --abeeZee-fonts: "ABeeZee", sans-serif;
   --navbar-container: 1440px;
   --section-container: 1140px;
 }
-/* common css  */
+/* common css end */
 
 /* header style start here  */
 
 header {
-  /* background: rgb(211, 209, 209); */
   padding: 0 20px;
 }
-
+hr {
+  border: 1px solid #f0f0f0;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -124,20 +132,14 @@ nav ul li a {
   padding: 17px 22px;
   border-radius: 24px;
   background: #4262ff;
-  display: flex;
-  gap: 10px;
-  align-items: center;
 }
 .signup-btn a {
   color: #fff;
   font-family: var(--abeeZee-fonts);
   font-size: 16px;
 }
-.signup-btn .fa-arrow-right-long {
-  color: #fff;
-  /* font-size: 18px; */
-}
-/* header style end here  */
+
+/* header style ============= end here  */
 
 /* banner section start here  */
 #banner_part {
@@ -155,11 +157,8 @@ nav ul li a {
 }
 
 .banner-heading {
-  font-size: 48px;
-  font-weight: bold;
   line-height: 56px;
   margin-bottom: 16px;
-  font-family: var(--inter-fonts);
 }
 .hero-section .text-part .first-pera {
   font-size: 18px;
@@ -182,15 +181,9 @@ nav ul li a {
   background-color: #4262ff;
   padding: 12px 0;
   border-radius: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
   margin-bottom: 7px;
 }
-.hero-section .text-part button span {
-  color: #fff;
-}
+
 .hero-section .text-part button a {
   color: #fff;
   font-family: var(--abeeZee-fonts);
@@ -237,7 +230,7 @@ nav ul li a {
 .hero-section .banner-img img {
   width: 100%;
 }
-/* banner section end here  */
+/* banner section ================== end here  */
 
 /* trusted user section style start here  */
 #trusted_user {
@@ -257,7 +250,7 @@ nav ul li a {
   justify-content: space-around;
   align-items: center;
 }
-/* trusted user section style end here  */
+/* trusted user section ============== style end here  */
 
 /* collaborate part style start here */
 #collaborate_part {
@@ -267,12 +260,8 @@ nav ul li a {
 }
 #collaborate_part h2 {
   text-align: center;
-  color: #050038;
-  font-size: 48px;
-  font-weight: bold;
   width: 490px;
   margin: 0 auto;
-  font-family: var(--inter-fonts);
   padding-bottom: 12px;
 }
 #collaborate_part .features {
@@ -304,19 +293,12 @@ nav ul li a {
   padding: 12px 30px;
   border-radius: 24px;
   background-color: #4262ff;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
   margin: 0 auto;
   color: #fff;
   font-family: var(--abeeZee-fonts);
 }
 
-#collaborate_part button span {
-  color: #fff;
-}
-
-/* collaborate part style end here */
+/* collaborate part ============= style end here */
 
 /* work together section style start here */
 #work_together-section {
@@ -335,10 +317,6 @@ nav ul li a {
 }
 
 #work_together-section .work-part .text-part h2 {
-  font-size: 48px;
-  font-weight: bold;
-  color: #050038;
-  font-family: var(--inter-fonts);
   margin-bottom: 16px;
   line-height: 56px;
 }
@@ -349,17 +327,9 @@ nav ul li a {
   width: 353px;
   margin-bottom: 40px;
 }
-#work_together-section .learn-more {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-#work_together-section .learn-more span {
-  margin-bottom: -5px;
-}
-#work_together-section .learn-more a,
-span {
-  /* color: #4262ff; */
+
+#work_together-section .learn-more a {
+  color: #4262ff;
   font-family: var(--inter-fonts);
 }
 #work_together-section .img-part {
@@ -368,7 +338,7 @@ span {
 #work_together-section .img-part img {
   width: 100%;
 }
-/* work together section style end here */
+/* work together ============= section style end here */
 
 /* connect tools part start here  */
 
@@ -394,10 +364,6 @@ span {
   width: 465px;
 }
 #connect_tools-part .details .text-part h2 {
-  color: #050038;
-  font-size: 48px;
-  font-weight: bold;
-  font-family: var(--inter-fonts);
   padding-bottom: 28px;
 }
 #connect_tools-part .details .text-part p {
@@ -407,20 +373,11 @@ span {
   padding-bottom: 52px;
 }
 
-#connect_tools-part .learn-more {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-#connect_tools-part .learn-more span {
-  margin-bottom: -5px;
-}
-#connect_tools-part .learn-more a,
-span {
-  /* color: #4262ff; */
+#connect_tools-part .learn-more a {
+  color: #4262ff;
   font-family: var(--inter-fonts);
 }
-/* connect tools part end here  */
+/* connect tools =============== part end here  */
 
 /* the ways we work section style start here */
 #the_ways-work {
@@ -466,22 +423,14 @@ span {
   background-color: #4262ff;
   border-radius: 40px;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
 }
 #the_ways-work .details .text .text-details .view-report-btn a {
   color: #fff;
   font-family: var(--abeeZee-fonts);
   font-size: 14px;
 }
-#the_ways-work .details .text .text-details .view-report-btn span {
-  color: #fff;
-  font-family: var(--abeeZee-fonts);
-  font-size: 14px;
-}
-/* the ways we work section style end here */
+
+/* the ways we work =================== section style end here */
 
 /* Built for the way section style start here */
 #built_for-the-way {
@@ -492,10 +441,6 @@ span {
   margin: 0 auto;
 }
 #built_for-the-way .details h2 {
-  color: #050038;
-  font-size: 48px;
-  font-weight: bold;
-  font-family: var(--inter-fonts);
   margin-bottom: 32px;
 }
 #built_for-the-way .details .features a {
@@ -530,9 +475,6 @@ span {
   font-size: 18px;
   font-family: var(--abeeZee-fonts);
 }
-#built_for-the-way .details .text-details .learn-more span {
-  color: #4262ff;
-}
 
 #built_for-the-way .details .text-and-img {
   display: flex;
@@ -544,7 +486,7 @@ span {
 #built_for-the-way .details .image img {
   width: 100%;
 }
-/* Built for the way section style end here */
+/* Built for the way =========== section style end here */
 
 /* Built for all kinds section style start here  */
 #built_for-all-kinds {
@@ -555,10 +497,6 @@ span {
   margin: 0 auto;
 }
 #built_for-all-kinds .details h2 {
-  color: #050038;
-  font-size: 48px;
-  font-weight: bold;
-  font-family: var(--inter-fonts);
   margin-bottom: 32px;
 }
 #built_for-all-kinds .details .features a {
@@ -603,9 +541,6 @@ span {
   font-size: 18px;
   font-family: var(--abeeZee-fonts);
 }
-#built_for-all-kinds .details .text-details .learn-more span {
-  color: #4262ff;
-}
 
 #built_for-all-kinds .details .text-and-img {
   display: flex;
@@ -636,7 +571,7 @@ span {
 #built_for-all-kinds .details .image img {
   width: 100%;
 }
-/* Built for all kinds section style end here  */
+/* Built for all kinds ================== section style end here  */
 
 /* world best team section style start here */
 #world_best-team {
@@ -647,10 +582,6 @@ span {
   margin: 0 auto;
 }
 #world_best-team .details h2 {
-  color: #050038;
-  font-size: 48px;
-  font-family: var(--inter-fonts);
-  font-weight: bold;
   text-align: center;
   margin-bottom: 24px;
 }
@@ -664,10 +595,6 @@ span {
   padding: 12px 30px;
   border: 1px solid #4262ff;
   border-radius: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
   color: #4262ff;
 }
 #world_best-team .details .customer-stories-btn a {
@@ -708,4 +635,147 @@ span {
   color: #8d8c92;
 }
 
-/* world best team section style end here */
+/* world best team ==================== section style end here */
+
+/* Footer section style start here  */
+#footer {
+  padding: 96px 0;
+  background-color: #02033b;
+}
+#footer .footer-details {
+  width: var(--section-container);
+  margin: 0 auto;
+}
+#footer .footer-details .details {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+#footer .footer-details .social-media-part {
+  width: 312px;
+}
+
+#footer .footer-details h3 {
+  color: #fff;
+  font-size: 23px;
+  font-weight: bolder;
+  font-family: var(--inter-fonts);
+}
+#footer .footer-details .social-icon {
+  display: flex;
+  gap: 40px;
+  margin: 49px 0 30px;
+}
+#footer .footer-details .social-icon a {
+  display: inline-block;
+  padding: 8px;
+  background-color: #fff;
+  color: #02033b;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#footer .footer-details .Privacy-tearms a {
+  color: #fff;
+  font-size: 11px;
+  font-family: var(--inter-fonts);
+  text-decoration: underline;
+  margin-bottom: 36px;
+  display: inline-block;
+  margin-right: 24px;
+}
+
+#footer .footer-details .copyright {
+  color: #ffffff;
+  font-size: 11px;
+  font-family: var(--inter-fonts);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+#footer .footer-details .links-part h2 {
+  color: #fff;
+  font-size: 35px;
+  font-family: var(--inter-fonts);
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+#footer .footer-details .links-part .links {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: #ffc247;
+  font-size: 19px;
+  font-weight: bolder;
+  font-family: var(--inter-fonts);
+  margin-top: 60px;
+}
+
+#footer .footer-details .links-part .links .link hr {
+  display: inline-block;
+  width: 20px;
+  border: 1px solid #ffc247;
+}
+#footer .footer-details .links-part .links .link {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+#footer .footer-details .links-part .links .link a {
+  color: #ffc247;
+}
+
+#footer .footer-details .footer-form {
+  width: 436px;
+  background: url("/images/footer form.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 36px;
+  border-radius: 24px;
+}
+#footer .footer-details .footer-form h2 {
+  color: #02033b;
+  font-size: 23px;
+  font-weight: bolder;
+  font-family: var(--inter-fonts);
+}
+#footer .footer-details .footer-form p {
+  color: #02033b;
+  font-size: 15px;
+  font-family: var(--inter-fonts);
+  margin: 21px 0 36px;
+  line-height: 20px;
+}
+#footer .footer-details .footer-form input {
+  padding: 8px 16px;
+  border-radius: 16px 0 0 16px;
+  border: none;
+  width: 70%;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: var(--inter-fonts);
+}
+#footer .footer-details .footer-form button {
+  padding: 8px 16px;
+  border-radius: 0 16px 16px 0;
+  border: none;
+  background-color: #02033b;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: var(--inter-fonts);
+  margin-left: -10px;
+}
+
+#footer .footer-details .footer-pera {
+  width: 550px;
+  color: #fff;
+  font-size: 12px;
+  font-family: var(--inter-fonts);
+  margin-top: 80px;
+}
+
+/* Footer section =========== style end here  */
