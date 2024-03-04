@@ -294,6 +294,10 @@ nav ul li a {
   border-radius: 24px;
   background-color: #4262ff;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#collaborate_part button a {
   color: #fff;
   font-family: var(--abeeZee-fonts);
 }
