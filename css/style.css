@@ -389,7 +389,7 @@ nav ul li a {
 }
 
 #the_ways-work .details {
-  background: url("/images/the ways we work.png");
+  background-image: url("/images/the ways we work.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -733,7 +733,7 @@ nav ul li a {
 
 #footer .footer-details .footer-form {
   width: 436px;
-  background: url("../images/footer form.png");
+  background-image: url("/images/footer form.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
